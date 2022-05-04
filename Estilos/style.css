@@ -1,0 +1,280 @@
+body,html,p{
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #1B1B1B;
+    box-sizing: inherit;
+    text-rendering: optimizeLegibility;
+}
+
+header{
+    display:flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+.info{
+    margin-right: 5%;
+}
+
+/* .info a{
+    display:flex;
+} */
+
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(212, 211, 211);
+}
+.izq{
+    width: 20%;
+    margin-left: 5%;
+}
+
+.mid{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.der{
+    width: 30%;
+    margin-right: 5%;
+}
+
+.footerph{
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+
+.mid p,img,h1,h4,h3,ol{
+    margin-right: 2%;
+    margin-bottom: 5px;
+}
+
+
+h1{
+    font-size: 38px;
+    line-height: 42px;
+    font-weight: 800;
+    color: #0089C1;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+}
+
+h2{
+    -webkit-text-size-adjust: 100%;
+    font-size: 25px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+h4{
+    -webkit-text-size-adjust: 100%;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.btnLogin{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-family: sans-serif;
+    line-height: 1;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+    white-space: nowrap;
+    color: #0089C1;
+    text-transform: uppercase;
+    box-sizing: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+.btnSocio{
+    box-sizing: inherit;
+    vertical-align: middle;
+    border-radius: 0;
+    transition: background-color .25s ease-out,color .25s ease-out;
+    cursor: pointer;
+    border: 1px solid #D8D8D8;
+    font-weight: 800;
+    justify-content: center;
+    padding-bottom: calc(.4em - 1px);
+    padding-top: calc(.4em - 1px);
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+    white-space: nowrap;
+    display:inline-flex;
+    align-items: center;
+    text-decoration: none;
+    margin: 0;
+    background: #FF3631;
+    color: #FFF;
+    border-color: #fff;
+    text-transform: uppercase;
+}
+
+.aTemas{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Open Sans",sans-serif,serif;
+    box-sizing: inherit;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+    color: #0089C1;
+    display: block;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: -.21px;
+    font-weight: 600;
+    transition: ease-in-out .2s all;
+}
+
+.pTema{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-family: "Open Sans",sans-serif,serif;
+    line-height: 1.5;
+    box-sizing: inherit;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #787878;
+}
+
+nav{
+    display:flex;
+    height: 50px;
+    background-color: rgb(240, 240, 240);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    display:flex;
+    margin-right: 1000px;
+    font-weight: 600;
+    font-size: inherit;
+    list-style: none;
+    box-sizing: inherit;
+    line-height: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    color: #008abe;
+    text-decoration: none;
+}
+
+.navDiv{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Open Sans",sans-serif,serif;
+    color: #606060;
+    box-sizing: inherit;
+    padding: 0;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    line-height: 1.5;
+    font-size: .875rem;
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.navBtn{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    overflow: visible;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background: 0 0;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    border-radius: 0;
+    transition: background-color .25s ease-out,color .25s ease-out;
+    line-height: 1;
+    cursor: pointer;
+    justify-content: center;
+    padding-bottom: calc(.4em - 1px);
+    padding-top: calc(.4em - 1px);
+    padding-right: 1em;
+    text-align: center;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: .875rem;
+    color: #606060;
+    margin: 0;
+    border: unset;
+    padding-left: 0;
+}
+
+.try{
+    -webkit-text-size-adjust: 100%;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-family: "Open Sans",sans-serif,serif;
+    line-height: 1.5;
+    color: #1B1B1B;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.ultimasNoticias{
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: inherit;
+    max-width: 100%;
+    min-height: 100%;
+    grid-area: header;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #b80e04;
+    margin: 0;
+    width: 268px;
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: -.65px;
+    font-family: "Open Sans Bold",sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.feed{
+    -webkit-text-size-adjust: 100%;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-family: "Open Sans",sans-serif,serif;
+    line-height: 1.5;
+    color: #1B1B1B;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
